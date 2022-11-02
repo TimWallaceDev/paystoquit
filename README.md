@@ -7,3 +7,6 @@ IMPLEMENTATION
 This website was built with HTML, CSS, and JavaScript. The auto generated image URLs are being fetched from an API endpoint I set up specifically for this app. 
 
 All storage is done via browser LocalStorage. This means that if you clear out the data from your browser all data will be lost. On the upside, this also means that all user data remains on their device which is nice for those privacy minded individuals. I hope create a feature soon that will enable users to save data in database if they so choose; allowing them to use the app accross multiple devices. I have noticed that some web browsers clear out localstoage data once you close the browser, meaning everytime you visit this site all your data is reset.
+
+RUNNING THIS SITE LOCALY
+You may download these files and run them yourself. Once issue you may encounter is that the fetching image URLs may not work when adding new rewards. This is due to CORS. You may not make client side requests to other domains. 
